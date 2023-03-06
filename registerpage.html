@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="bg-primary-subtle border">
+<div class="m-5 border border-succes p-5 rounded-5 bg-primary bg-gradient">
+    <h1 class="text-center">Đăng ký</h1>
+    <form action="" method="get">
+        <div class="mb-3">
+            <label for="tendangnhap" class="form-label">Tên đăng nhập</label>
+            <input placeholder="Email/SĐT/Mã sinh viên" class="form-control" required type="text" name="tendangnhap" id="tendangnhap">
+        </div>
+        
+        <div class="mb-3">
+            <label for="matkhau" class="form-label">Mật Khẩu</label>
+            <input placeholder="Mật Khẩu"required type="password" class="form-control" name="matkhau" id="matkhau">
+        </div>
+
+        <div class="mb-3">
+            <label for="nhaplaimatkhau" class="form-label">Mật Khẩu</label>
+            <input placeholder="Nhập Lại Mật Khẩu"required type="password" class="form-control" name="nhaplaimatkhau" id="nhaplaimatkhau">
+        </div>
+        
+        <div class="mb-3">
+            <label for="gioitinh" class="form-label">Giới Tính</label>
+            <select class="form-select" aria-label="gioitinh">
+                <option selected>Chọn giới tính</option>
+                <option value="1">Nam</option>
+                <option value="2">Nữ</option>
+              </select>
+        </div>
+        <div class="mb-3">
+            <label for="birthday" class="form-label">Ngày Sinh</label>
+            <input type="date" class="form-control" id="birthday" name="birthday">
+        </div>
+
+        <div class="mb-3 d-flex justify-content-end">
+            <button type="submit" class="btn btn-success me-2">Đăng ký</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
