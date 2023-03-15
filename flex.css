@@ -1,0 +1,41 @@
+*{
+    font-size: ;
+    
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: gainsboro;
+    padding: 0px 10px 10px;
+}
+.logo{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    color: blue;
+    font-weight: 500;
+    padding: 10px;
+}
+.menu{
+
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: warp;
+}
+
+.menu ul li{
+    display: block;
+    padding: 10px;
+}
+
+.menu ul li:hover{
+    background-color: white;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: gray
+}
