@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container > div{
+    min-width: 200px;
+    min-height: 50px;
+}
+.ls-icon{
+    display: flex;
+    background-color:  red;
+}
+.ls-icon ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.ls-icon ul li{
+    font-size: 2rem;
+    justify-content: space-around;
+}
+.text{
+    background-color: blue;
+    flex-grow: 2;
+}
+.like{
+    background-color: green;
+}
